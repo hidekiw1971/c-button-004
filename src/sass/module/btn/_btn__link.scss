@@ -1,0 +1,34 @@
+@use "global" as *;
+.btn__link {
+  position: relative;
+  text-decoration: none;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
+
+// btn__linkの擬似要素
+.btn__link::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  content: "";
+  background: #f00;
+  transform-origin: left top;
+  transform: scale(0, 1);
+  transition: transform 0.1s;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
+
+// btn__linkの擬似要素
+.btn__link:hover::before {
+  transform-origin: left top;
+  transform: scale(1, 1);
+}
