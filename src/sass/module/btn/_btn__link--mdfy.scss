@@ -1,0 +1,10 @@
+@use "global" as *;
+.btn__link--mdfy {
+  width: rem(300);
+  height: rem(50);
+  background-color: #333;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

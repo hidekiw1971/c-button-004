@@ -1,5 +1,6 @@
 @use "global" as *;
 .btn__link {
+  display: inline-block;
   position: relative;
   text-decoration: none;
   @include mq(md) {

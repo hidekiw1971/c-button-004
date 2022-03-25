@@ -176,29 +176,23 @@ select::-ms-expand {
 .box {
   text-align: center;
 }
+.btn__inner--mdfy {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
 .btn__inner {
-  display: inline-block;
+  color: #fff;
+}
+.btn__link--mdfy {
   width: 300px;
   width: 18.75rem;
   height: 50px;
   height: 3.125rem;
   background-color: #333;
-  color: #fff;
-}
-.btn__link--layout {
-  width: 100%;
-  height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 .btn__link {
+  display: inline-block;
   position: relative;
   text-decoration: none;
 }
