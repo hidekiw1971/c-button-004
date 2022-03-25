@@ -8,8 +8,8 @@
 
 ## 概要
 
-- button 要素の配下に a タグを設置すると、w3c html チェッカーでエラーになります。
-- button 要素をやめて、div にすればエラーはなくなります。
+- button 要素の配下に a タグを設置すると、w3c html チェッカーでエラーになります。→　git resetで戻せます。
+- button 要素をやめて、div にすればエラーはなくなります。→ git resetで戻せます。
 
 ## 仕様
 
@@ -23,6 +23,7 @@
 - Element button must not appear as a descendant?
 - button 要素は、（a）要素の子孫として表示しなければいけません。
 - https://tinyurl.com/ybyvujf3
+- これはこの状態で作成完了とします。w3c htmlエラーtaiousitamonoha`c-button-005`でonclickを使用して実装してます。
 
 ## 使い方
 
